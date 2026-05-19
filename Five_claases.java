@@ -20,7 +20,7 @@ int salary;
 void working(){
 
 }
-void speaking(){
+void larning(){
 
 }
 
