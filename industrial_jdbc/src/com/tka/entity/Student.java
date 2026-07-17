@@ -1,11 +1,11 @@
 package com.tka.entity;
 
 public class Student {
-	
+
 	private int rollNo;
 	private String name;
 	private int marks;
-	
+
 	public Student() {
 		super();
 	}
@@ -43,9 +43,10 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [rollNo = " + rollNo + ", name = " + name + ", marks = " + marks + "]";
+		return "\n" + "Roll No   : " + rollNo + 
+			   "\n" + "Name      : " + name + 
+			   "\n" + "Marks     : " + marks + "\n"
+				+ "----------------------------";
 	}
-	
-	
 
 }
