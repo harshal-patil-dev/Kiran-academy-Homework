@@ -66,7 +66,7 @@ public class PlayerController {
 		PlayersDB.loading();
 		List<Players> findplayers = playerservice.findPlayers(p1);
 
-		if (!findplayers.isEmpty()) {
+		if (findplayers.isEmpty()) {
 
 			System.out.println("-----------------------------------------");
 
